@@ -1,0 +1,202 @@
+
+
+    body {
+        background: linear-gradient(-45deg, #0400ff, #00ffee, #b300ff, #91ff00);
+        background-size: 400% 400%;
+        -webkit-animation: gradient 10s ease infinite;
+                animation: gradient 10s ease infinite;
+    }
+    
+    @-webkit-keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+.top{
+    font-family: Akaya Kanadaka, display;
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 22.1px;
+    text-shadow: 3px 4px 14px rgba(0, 0, 0, 1);
+}
+
+  
+.box{
+    text-align: center;
+    margin: 0%;
+
+    }
+.box1{
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;    
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    height: 360px;
+    width: 400px;
+    padding: 10px;
+    
+    
+}
+input {
+    padding: 8px;
+    font-size: 22px;
+    border-width: 4px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: outset;
+    border-radius: 28px;
+    box-shadow: 4px 5px 12px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+input:focus {
+    outline:none;
+}
+   
+.AV{
+    margin-top: 10%;
+    height: 150px;
+    width:150px;
+}
+.paragraph{
+    font-size: 2rem;
+    font-style:italic;
+    color: white;
+}
+footer{
+    margin-top:10%;
+    width:auto;
+    height: 20px;
+    text-align: center;
+}
+.p{
+    font-size: 20px;
+}
+.m1{
+        margin-bottom: 0%;
+        font-family: Almendra SC, serif;
+        font-size: 41px;
+        font-weight: 100;
+        color: rgba(251, 255, 0, 1);
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 2em;
+        letter-spacing: 6px;
+        text-shadow: 0px 0px 8px rgba(234, 255, 3, 1);
+    }
+    
+button{
+    margin-top: 30px;
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:30px;
+    border-width:1px;
+    color:#333333;
+    border-color:#ffaa22;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    text-shadow: 0px 1px 0px #ffee66;
+    background:linear-gradient(#ffec64, #ffab23);
+  }
+  
+  button:hover {
+    background: linear-gradient(#ffab23, #ffec64);
+  }
+                
+
+@media (width<=720px) {
+   
+    .top{
+        font-size: 2rem;
+        letter-spacing: 10.1px;
+        height: 50px;
+        width: auto;
+     
+    }
+    .box1{
+        font-family: "Sofia", sans-serif;
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        height: 150px;
+        width: 300px;
+        padding: 10px;
+       
+        
+    }
+    .m1{
+        margin-top: 5%;
+    }
+    input{
+        width: 150px;
+        border: solid 3px rgb(255, 170, 0);
+        box-shadow: black;
+        font-size: 10px;
+        margin-bottom: 15px;
+   }
+   .AV{
+    margin-top: 0%;
+    height: 100px;
+    width:100px;
+}
+.paragraph{
+    font-size: 0.7rem;
+    font-style:italic;
+    color: white;
+}
+
+.m1{
+    margin: 0%;
+    padding: 0%;
+    font-family: Almendra SC, serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgba(251, 255, 0, 1);
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
+    letter-spacing: 6px;
+    text-shadow: 0px 0px 8px rgba(234, 255, 3, 1);
+}
+button{
+    margin-top:2px;
+    margin-bottom: 5px;;
+    font-size:15px;
+    font-family:Arial;
+    width:90px;
+    height: 20px;
+}
+}
