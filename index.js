@@ -8,7 +8,7 @@ if(document.getElementById("mk").value.length == 0)
 }
 else{
     
-    window.open("project/project.html");
+    window.open("project/index.html");
     var s=document.getElementById("mk").value;
     localStorage.setItem("textvalue",s);
     
